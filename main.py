@@ -47,7 +47,7 @@ def open_library():
         check_list = [False, False, False, False]
         names_list = []
 
-        coords = [[0.05, 0.1], [0.05, 0.6], [0.55, 0.1], [0.55, 0.6]]
+        coords = [[0.05, 0.05], [0.05, 0.55], [0.55, 0.05], [0.55, 0.55]]
         for i in range(len(user["games"])):
             image_1 = Image.open(user["games"][i][1])
             resized_image_1 = image_1.resize((350, 250))
